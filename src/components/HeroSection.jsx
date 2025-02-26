@@ -37,7 +37,7 @@ function HeroSection() {
                 <div className='flex flex-col w-[866px] h-[332px] mt-[20px] pl-3 gap-[35px]'>
 
                     <div className='flex items-center bg-[#F86720] w-[152px] h-[107px] rounded-sm border border-white'>
-                    <h1 className='w-[800px] text-[100px] pt-4 pl-3 text-white proxon-font'>HackIndia2025</h1>
+                    <h1 className='w-[800px] text-[100px] pt-4 pl-3 text-white proxon-font' style={{ textShadow: "1px 3px 2px rgba(255, 255, 255, 0.5)" }}>HackIndia2025</h1>
                     </div>
                     
                     <p className='text-[28px] text-white vtf-font font-bold tracking-[2px] text-center mt-[-15px]'>India’s Biggest Web3 & AI Hackathon</p>
