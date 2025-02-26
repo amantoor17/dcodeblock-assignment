@@ -34,7 +34,7 @@ function HeroNav() {
     return (
         <div className="bg-[#28083A] h-[60px] w-auto mt-[114px] ml-[120px] border border-[#5C3A80] rounded-lg flex items-center px-4 space-x-4">
             {tabs.map((tab, index) => (
-                <div key={index} className="relative flex items-center">
+                <div key={index} className="relative flex gap-1 items-center">
                     <img src={rect1} alt="Tab Left" className="h-[40px]" />
                     <span
                         ref={el => textRefs.current[index] = el}

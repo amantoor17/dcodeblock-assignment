@@ -24,3 +24,23 @@
   font-family: 'Proxon' !important;
 }
 
+/* VTF Justina GEO Bold */
+@font-face {
+  font-family: 'VTF Justina GEO';
+  src: url('./assets/vtf-justina-geo-bold-1740542660-0/VTFJustinaGEO-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* VTF Justina GEO Extra Light */
+@font-face {
+  font-family: 'VTF Justina GEO';
+  src: url('./assets/vtf-justina-geo-extra-light-1740542688-0/VTFJustinaGEO-ExtraLight.otf') format('opentype');
+  font-weight: 200; /* Extra Light font-weight */
+  font-style: normal;
+}
+
+
+.vtf-font {
+  font-family: 'VTF Justina GEO', sans-serif;
+}

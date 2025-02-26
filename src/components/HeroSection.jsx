@@ -30,23 +30,39 @@ function HeroSection() {
                 </div>
             </div>
 
-            <div className='z-1'>
-                <img src={navPic} />
-                <div className='bg-[#F86720] w-[152px] h-[107px]'></div>
-                <p>hackindia2025</p>
-                <p>India’s Biggest Web3 & AI Hackathon</p>
-                <div className='bg-[#6A1799]'>
-                    <p>February 28 - September 28</p>
-                </div>
-                <div>
-                    <p>$150+ Price Pool | 150+ University | 25,000+ Students</p>
-                </div>
-                <div className="relative">
-                    <div className='flex w-[150px] h-[53px] '>
-                        <img className='' src={rect1}/>
-                        <img className='' src={rect2}/>         
+            <div className='flex flex-col justify-center items-center'>
+
+                <img className='w-[280px] h-[76px] mt-[50px]' src={navPic} />
+
+                <div className='flex flex-col w-[866px] h-[332px] mt-[20px] pl-3 gap-[35px]'>
+
+                    <div className='flex items-center bg-[#F86720] w-[152px] h-[107px] rounded-sm border border-white'>
+                    <h1 className='w-[800px] text-[100px] pt-4 pl-3 text-white proxon-font'>HackIndia2025</h1>
                     </div>
-                    <p className='text-white absolute'>Overview</p>
+                    
+                    <p className='text-[28px] text-white vtf-font font-bold tracking-[2px] text-center mt-[-15px]'>India’s Biggest Web3 & AI Hackathon</p>
+
+                    <div className='bg-[#6A1799] w-[40%] border rounded-sm ml-[30%] border-[#D9D9D94D] pt-[10px] pr-[30px] pb-[10px] pl-[30px] h-[50px]'>
+                        <span className='vtf-font text-white font-bold text-[20px]'>February 28 - September 28</span>
+                    </div>
+                    <div>
+                        <p className='flex justify-between text-[25px] text-white vtf-font font-bold'>
+                            <p><span className='text-[#F86720]'>$150+ </span>Price Pool</p>
+                            <span>|</span> 
+                            <p><span className='text-[#F86720]'>150+ </span>University</p>
+                            <span>|</span> 
+                            <p><span className='text-[#F86720]'>25,000+ </span>Students</p>
+                        </p>
+                    </div>
+                </div>
+
+                <div className="relative bottom-[8px] right-[150px] ml-[17%] mt-10">
+                    <div className='flex gap-1 w-[150px] h-[53px] '>
+                        <img className='' src={rect1}/>
+                        <img className='' src={rect2}/>
+                                                    
+                    </div>
+                    <p className='text-white absolute mt-[-38px] ml-[30px] vtf-font font-thin text-base leading-[23.6px]'>Register now!</p>
                 </div>
             </div>
 
