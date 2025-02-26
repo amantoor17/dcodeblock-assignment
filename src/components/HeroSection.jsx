@@ -11,7 +11,7 @@ function HeroSection() {
 
             <div>
                 <video 
-                    className="absolute z-[-100] inset-0 w-full h-full opacity-[94%]"
+                    className="absolute z-[-100] inset-0 w-full h-full opacity-[94%] brightness-35"
                     src={background} 
                     type="video/mp4" 
                     autoPlay 
@@ -56,14 +56,20 @@ function HeroSection() {
                     </div>
                 </div>
 
-                <div className="relative bottom-[8px] right-[150px] ml-[17%] mt-10">
-                    <div className='flex gap-1 w-[150px] h-[53px] '>
-                        <img className='' src={rect1}/>
-                        <img className='' src={rect2}/>
-                                                    
+                <div className="relative bottom-[8px] right-[150px] ml-[17%] mt-10 
+                    bg-transparent rounded-md hover:cursor-pointer transition duration-300 ease-in-out 
+                    hover:brightness-150 hover:drop-shadow-[0_0_10px_#B026FF] hover:scale-110">
+                    
+                    <div className="flex gap-1 w-[150px] h-[53px]">
+                        <img className="transition duration-300 ease-in-out" src={rect1} />
+                        <img className="transition duration-300 ease-in-out" src={rect2} />
                     </div>
-                    <p className='text-white absolute mt-[-38px] ml-[30px] vtf-font font-thin text-base leading-[23.6px]'>Register now!</p>
+
+                    <p className="text-white absolute mt-[-38px] ml-[30px] vtf-font font-thin text-base leading-[23.6px] ">
+                        Register now!
+                    </p>
                 </div>
+
             </div>
 
         </div>
