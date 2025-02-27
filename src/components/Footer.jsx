@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div className="flex flex-col sm:flex-row w-screen text-white justify-center sm:justify-around items-center text-center px-4 py-6 sm:pt-20 proxon-font font-normal">
-      <p className="mb-3 sm:mb-0 sm:block hidden">
+    <div className="flex flex-col lg:flex-row w-screen text-white justify-center lg:justify-around items-center text-center px-4 py-6 lg:pt-20 proxon-font font-normal">
+      <p className="mb-3 lg:mb-0 lg:block hidden">
         Copyright <span className="text-gray-500">©</span> 2024 DcodeBlock
       </p>
 
@@ -13,7 +13,7 @@ function Footer() {
         <p>Privacy policy</p>
       </div>
 
-      <div className="sm:hidden block pt-5">
+      <div className="lg:hidden block pt-5">
         <p>
           Copyright <span className="text-gray-500">©</span> 2024 DcodeBlock
         </p>
