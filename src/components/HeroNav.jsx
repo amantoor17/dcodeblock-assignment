@@ -32,7 +32,7 @@ function HeroNav() {
     }, []);
 
     return (
-        <div className="bg-[#28083A] h-[60px] w-auto mt-[114px] ml-[120px] border border-[#5C3A80] rounded-lg flex items-center px-4 space-x-4">
+        <div className=" hidden bg-[#28083A] sm:h-[60px] sm:w-auto sm:mt-[60px] sm:ml-[120px] border border-[#5C3A80] rounded-lg sm:flex items-center px-4 space-x-4">
             {tabs.map((tab, index) => (
                 <div 
                     key={index} 

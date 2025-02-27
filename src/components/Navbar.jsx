@@ -25,7 +25,7 @@ function Navbar() {
                     </p>
                 </div>
                 {/* Mobile Sign-in Image (Hidden on Desktop) */}
-                <img className="block sm:hidden absolute w-[30px] h-[30px] mt-[20px] ml-[330px] bg-white rounded-2xl" src={mobileSignIn} alt="Mobile Sign-in" />
+                <img className="block sm:hidden absolute w-[30px] h-[30px] mt-[20px] ml-[330px] bg-white rounded-2xl hover:scale-125 duration-300" src={mobileSignIn} alt="Mobile Sign-in" />
             </div>
             <img className="sm:w-[100vw] sm:h-[6px] sm:mt-1 h-[6px] mt-4.5" src={rect3} />
         </div>
