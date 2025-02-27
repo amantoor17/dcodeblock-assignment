@@ -7,21 +7,21 @@ This is a React + Vite project that provides a responsive and visually appealing
 Installation and Setup
 
 To run this project locally, follow these steps:
-```
+
 Clone the repository:
-
-git clone <repository-url>
-
+```
+git clone https://github.com/amantoor17/dcodeblock-assignment.git
+```
 Navigate to the project directory:
-
+```
 cd project-name
-
+```
 Install dependencies:
-
+```
 npm install
-
+```
 Start the development server:
-
+```
 npm run dev
 ```
 After running the command, a link will appear in the terminal. Click on it to open the project in your browser.
