@@ -7,7 +7,7 @@ import rect2 from '../assets/Rectangle1119.png'
 
 function HeroSection() {
     return (
-        <div className="flex flex-col w-100vw h-[835px] z-[-1]">
+        <div className="flex flex-col sm:w-100vw sm:h-[835px] z-[-1]">
 
             <div>
                 <video 

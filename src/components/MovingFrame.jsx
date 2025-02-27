@@ -8,9 +8,9 @@ const images = [moving1, moving2, moving3, moving4];
 
 function MovingFrame() {
     return (
-        <div className="overflow-hidden h-[90px] bg-[#D9D9D9] flex items-center">
+        <div className="overflow-hidden sm:h-[90px] bg-[#D9D9D9] flex items-center">
             <motion.div
-                className="flex whitespace-nowrap mt-2"
+                className="flex whitespace-nowrap sm:mt-2"
                 animate={{ x: ["0%", "-100%"] }}
                 transition={{ ease: "linear", duration: 20, repeat: Infinity }}
             >
