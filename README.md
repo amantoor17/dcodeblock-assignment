@@ -1,10 +1,10 @@
-dcodeblock-assignment
+# dcodeblock-assignment
 
-Overview
+## Overview
 
 This is a React + Vite project that provides a responsive and visually appealing web interface. It includes multiple components such as a navigation bar, hero section, moving frames, and partner sections, all designed using Tailwind CSS and framer-motion for animations.
 
-Installation and Setup
+## Installation and Setup
 
 To run this project locally, follow these steps:
 
@@ -14,7 +14,7 @@ git clone https://github.com/amantoor17/dcodeblock-assignment.git
 ```
 Navigate to the project directory:
 ```
-cd project-name
+cd dcodeblock-assignment
 ```
 Install dependencies:
 ```
@@ -24,22 +24,22 @@ Start the development server:
 ```
 npm run dev
 ```
-After running the command, a link will appear in the terminal. Click on it to open the project in your browser.
+### After running the command, a link will appear in the terminal. Click on it to open the project in your browser.
 
-Project Structure
+##  Project Structure
 
-The main file is App.jsx, which serves as the entry point and imports key components:
+###  The main file is App.jsx, which serves as the entry point and imports key components:
 
-Navbar.jsx - Contains the navigation bar with sign-in functionality and hover effects.
+**Navbar.jsx** - Contains the navigation bar with sign-in functionality and hover effects.
 
-HeroSection.jsx - Includes a background video, event details, and navigation.
+**HeroSection.jsx** - Includes a background video, event details, and navigation.
 
-MovingFrame.jsx - Displays an infinite scrolling frame using framer-motion.
+**MovingFrame.jsx** - Displays an infinite scrolling frame using framer-motion.
 
-About.jsx - Provides statistics about the event and adjusts for mobile and desktop views.
+**About.jsx** - Provides statistics about the event and adjusts for mobile and desktop views.
 
-Partners.jsx - Shows partner logos, with a sliding effect on mobile.
+**Partners.jsx** - Shows partner logos, with a sliding effect on mobile.
 
-Footer.jsx - Displays useful links and copyright information.
+**Footer.jsx** - Displays useful links and copyright information.
 
 
