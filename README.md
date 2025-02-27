@@ -1,8 +1,45 @@
-# React + Vite
+dcodeblock-assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+This is a React + Vite project that provides a responsive and visually appealing web interface. It includes multiple components such as a navigation bar, hero section, moving frames, and partner sections, all designed using Tailwind CSS and framer-motion for animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation and Setup
+
+To run this project locally, follow these steps:
+```
+Clone the repository:
+
+git clone <repository-url>
+
+Navigate to the project directory:
+
+cd project-name
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+```
+After running the command, a link will appear in the terminal. Click on it to open the project in your browser.
+
+Project Structure
+
+The main file is App.jsx, which serves as the entry point and imports key components:
+
+Navbar.jsx - Contains the navigation bar with sign-in functionality and hover effects.
+
+HeroSection.jsx - Includes a background video, event details, and navigation.
+
+MovingFrame.jsx - Displays an infinite scrolling frame using framer-motion.
+
+About.jsx - Provides statistics about the event and adjusts for mobile and desktop views.
+
+Partners.jsx - Shows partner logos, with a sliding effect on mobile.
+
+Footer.jsx - Displays useful links and copyright information.
+
+
