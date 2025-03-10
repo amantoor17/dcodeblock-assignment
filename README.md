@@ -1,5 +1,7 @@
 # dcodeblock-assignment
 
+Check it out - https://amantoor17.github.io/dcodeblock-assignment/
+
 ## Overview
 
 This is a React + Vite project that provides a responsive and visually appealing web interface. It includes multiple components such as a navigation bar, hero section, moving frames, and partner sections, all designed using Tailwind CSS and framer-motion for animations.
